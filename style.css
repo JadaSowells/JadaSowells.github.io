@@ -25,66 +25,31 @@ body {
     margin: 20px 0;
 }
 
-/* Highlight Colors - Matching the assignment image */
-.highlight-red {
-    background-color: #ff6b6b;
-    color: white;
-    padding: 2px 4px;
-}
-
-.highlight-green {
-    background-color: #90EE90;
+/* Highlight Color*/
+.highlight-orange {
+    background-color: orange;
     color: black;
     padding: 2px 4px;
 }
-
-.highlight-yellow {
-    background-color: #FFD700;
-    color: black;
+/*text Color*/
+.text-red {
+    color: red;
     padding: 2px 4px;
 }
 
-/* Fox Image */
-.fox-image {
+.underlined {
+    text-decoration: underline;
+    padding: 2px 4px;
+}
+
+/*Image */
+.image {
     max-width: 300px;
     height: auto;
     margin: 20px auto;
     display: block;
 }
 
-/* Quote Sections */
-.quote-section {
-    margin: 30px 0;
-}
-
-/* Color Boxes at the bottom */
-.box-section {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
-    margin: 30px 0;
-}
-
-.red-box {
-    background-color: #ff6b6b;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #333;
-}
-
-.green-box {
-    background-color: #90EE90;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #333;
-}
-
-.yellow-box {
-    background-color: #FFD700;
-    width: 60px;
-    height: 60px;
-    border: 1px solid #333;
-}
 
 /* Navigation Link */
 .back-link {
