@@ -131,7 +131,7 @@ document.write("</table>");
     document.write("</tr>");
     
     document.write("</table>");
-
+    }
 // Add link to go back
 document.write("<br><br><a href='calculator.html'>Start New Calculation</a>");
 
