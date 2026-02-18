@@ -1,3 +1,4 @@
+document.open();
 // Arrays to store valid calculations
 let calculations = [];
 let validResults = [];
