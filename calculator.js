@@ -133,5 +133,5 @@ document.write("</table>");
     document.write("</table>");
 
 // Add link to go back
-document.write("<br><br><a href='JadaSowells.github.io/calculator.html'>Start New Calculation</a>");
+document.write("<br><br><a href='calculator.html'>Start New Calculation</a>");
 
