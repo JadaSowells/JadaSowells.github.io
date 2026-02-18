@@ -107,6 +107,31 @@ for (let i = 0; i < calculations.length; i++) {
 
 document.write("</table>");
 
+// Summary table 
+    if (validResults.length > 0) {
+    // Calculate min, max, and total
+    let min = Math.min(...validResults);
+    let max = Math.max(...validResults);
+    let total = validResults.reduce((sum, val) => sum + val, 0);
+    let average = total / validResults.length;
+        
+    document.write("<table border='1' cellpadding='8' cellspacing='0' style='border-collapse: collapse;'>");
+    document.write("<tr style='background-color: #2ecc71; color: white;'>");
+    document.write("<th>Minimum</th>");
+    document.write("<th>Maximum</th>");
+    document.write("<th>Average</th>");
+    document.write("<th>Total</th>");
+    document.write("</tr>");
+    
+    document.write("<tr>");
+    document.write("<td>" + min + "</td>");
+    document.write("<td>" + max + "</td>");
+    document.write("<td>" + average.toFixed(2) + "</td>");
+    document.write("<td>" + total + "</td>");
+    document.write("</tr>");
+    
+    document.write("</table>");
+
 // Add link to go back
-document.write("<br><br><a href='calculator.html'>← Start New Calculation</a>");
+document.write("<br><br><a href='JadaSowells.github.io/calculator.html'>Start New Calculation</a>");
 
