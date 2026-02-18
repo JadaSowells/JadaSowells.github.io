@@ -46,7 +46,8 @@ body {
 
 /*Image */
 .image {
-    max-width: 300px;
+    max-width: 350px;
+    width: 100%;
     height: auto;
     margin: 20px auto;
     display: block;
