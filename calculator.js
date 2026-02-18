@@ -81,3 +81,32 @@ while (continueLoop) {
         validResults.push(result);
     }
 }
+// After loop exits, build the tables
+document.write("<h2>Calculation Results</h2>");
+
+// Main results table
+document.write("<table border='1' cellpadding='8' cellspacing='0' style='border-collapse: collapse; margin-bottom: 30px;'>");
+document.write("<tr style='background-color: #3498db; color: white;'>");
+document.write("<th>Number 1 (x)</th>");
+document.write("<th>Operator</th>");
+document.write("<th>Number 2 (y)</th>");
+document.write("<th>Result</th>");
+document.write("</tr>");
+
+// Loop through all calculations and add rows
+for (let i = 0; i < calculations.length; i++) {
+    let calc = calculations[i];
+    
+    document.write("<tr>");
+    document.write("<td>" + calc.x + "</td>");
+    document.write("<td>" + calc.operator + "</td>");
+    document.write("<td>" + calc.y + "</td>");
+    document.write("<td>" + calc.result + "</td>");
+    document.write("</tr>");
+}
+
+document.write("</table>");
+
+// Add link to go back
+document.write("<br><br><a href='calculator.html'>← Start New Calculation</a>");
+
